@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="22f94fa1-3ca2-4ca8-9eb1-2f608ec80ce6" name="Default Changelist" comment="" />
+    <list default="true" id="40d018f3-9504-4620-98c3-93b3bcb70664" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -34,32 +38,46 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProjectId" id="1reWsbnIJVrCYIpMvlwfgzi8Zyq" />
+  <component name="ProjectId" id="1rhrEIeZlN4ybRDYXN37eqCho0b" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/teaching_blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app_users/static/css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HOME\Desktop\school website\teaching_blog\app_users\static\css" />
+      <recent name="C:\Users\HOME\Desktop\school website\teaching_blog\app_users\static\img" />
+      <recent name="C:\Users\HOME\Desktop\school website\teaching_blog\curriculum\static\css" />
+      <recent name="C:\Users\HOME\Desktop\school website\teaching_blog\curriculum\templates\curriculum" />
+      <recent name="C:\Users\HOME\Desktop\school website\teaching_blog\curriculum\static\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HOME\Desktop\school website\teaching_blog\curriculum\static\css" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="Unnamed" type="Python.DjangoServer" factoryName="Django server" singleton="false" nameIsGenerated="true">
-      <module name="school website" />
+    <configuration name="teaching_blog" type="Python.DjangoServer" factoryName="Django server">
+      <module name="teaching_blog" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\HOME\AppData\Local\Microsoft\WindowsApps\python3.9.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -79,14 +97,22 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="22f94fa1-3ca2-4ca8-9eb1-2f608ec80ce6" name="Default Changelist" comment="" />
-      <created>1619337250339</created>
+      <changelist id="40d018f3-9504-4620-98c3-93b3bcb70664" name="Default Changelist" comment="" />
+      <created>1619439050003</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1619337250339</updated>
-      <workItem from="1619337254851" duration="16462000" />
-      <workItem from="1619438913053" duration="58000" />
-      <workItem from="1619438975362" duration="72000" />
+      <updated>1619439050003</updated>
+      <workItem from="1619439051459" duration="11044000" />
+      <workItem from="1619525049747" duration="2516000" />
+      <workItem from="1619622425715" duration="2270000" />
+      <workItem from="1619633034943" duration="5142000" />
+      <workItem from="1619699618089" duration="3534000" />
+      <workItem from="1619776390145" duration="3643000" />
+      <workItem from="1619858521044" duration="9453000" />
+      <workItem from="1619892805912" duration="786000" />
+      <workItem from="1619942307347" duration="5995000" />
+      <workItem from="1620022891083" duration="10883000" />
+      <workItem from="1620128170601" duration="24030000" />
     </task>
     <servers />
   </component>
