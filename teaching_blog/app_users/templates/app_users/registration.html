@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <style>
+    p{
+        display: inline-block;
+    }
+    .row{
+        margin: 0 auto ;
+    }
+    </style>
+
+
+
+    <div class="container">
+        {% if registered %}
+            <h1>Thank you registering</h1>
+        {% else %}
+            <h3>Fill the form:</h3>
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+    {#            {{ user_form }}#}
+                <p>Username</p>
+                <span class="">{{ user_form.username }}</span><br>
+                <p>First Name</p>
+                {{ user_form.first_name }}<br>
+                <p>Last Name</p>
+                {{ user_form.last_name }}<br>
+                <p>Email</p>
+                {{ user_form.email }}<br>
+                <p>Password</p>
+                {{ user_form.password1 }}<br>
+                <p>Confirm</p>
+                {{ user_form.password2 }}<br>
+
+                {{ profile_form }}
+                <input type="submit" value="Register" class="btn btn-primary btn-block">
+            </form>
+        {% endif %}
+    </div>
+
+{% endblock %}

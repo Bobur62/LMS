@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<style>
+.card{
+    margin: 0 auto;
+    width: 400px;
+    padding: 30px 0;
+    background: #4b69a7;
+    border-radius: 15px;
+}
+.form-control{
+    margin: 30px auto;
+    width: 300px;
+}
+
+.button{
+    {#margin: 0 auto;#}
+    margin-left: 100px;
+    width: 170px;
+    background: #2be82b;
+    padding: 5px 0;
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.button:hover{
+    background: rgba(43, 232, 43, 0.56);
+}
+
+</style>
+
+    <div class="container">
+        <div class="card">
+            <form method="post">
+
+            {% csrf_token %}
+    {#        <label for="username">Username:</label>#}
+            <input type="text" name="username" placeholder="Username" class="form-control">
+
+    {#        <label>Password:</label>#}
+            <input type="password" name="password" class="form-control" placeholder="Password">
+
+                <input type="submit" value="Login" class="button">
+
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
